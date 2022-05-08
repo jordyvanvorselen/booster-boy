@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    Rigidbody rb;
-    AudioSource audio;
     [SerializeField] float thrustPower;
     [SerializeField] float rotationSpeed;
+    [SerializeField] AudioClip mainEngine;
+
+    Rigidbody rb;
+    AudioSource audio;
 
     void Start()
     {
@@ -30,7 +32,7 @@ public class Movement : MonoBehaviour
 
             if (!audio.isPlaying)
             {
-                audio.Play();
+                audio.PlayOneShot(mainEngine);
             }
         }
         else
