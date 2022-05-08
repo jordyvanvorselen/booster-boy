@@ -144,7 +144,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.048
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -241,5 +241,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadDelay: 2.5
-  crashSound: {fileID: 8300000, guid: 0906a155a1ae04048ba9cc9590f48d74, type: 3}
-  successSound: {fileID: 8300000, guid: e90604c7cce73b4498ac69042e7aa114, type: 3}
+  crash: {fileID: 8300000, guid: 0906a155a1ae04048ba9cc9590f48d74, type: 3}
+  success: {fileID: 8300000, guid: e90604c7cce73b4498ac69042e7aa114, type: 3}
