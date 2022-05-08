@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Over.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Between.unity
+    guid: 29ccbbf93b2e5bc47a87c9e6ce72579d
   - enabled: 1
-    path: Assets/Scenes/Under.unity
-    guid: 82669b7e68fc5ac44a4cca2099affca2
+    path: Assets/Scenes/Over and Under.unity
+    guid: 14dccec2eb8c2c648ad46705b4536674
+  - enabled: 1
+    path: Assets/Scenes/Labyrinth.unity
+    guid: 1000dcb5960a447429717fd224bc5d06
   m_configObjects: {}
